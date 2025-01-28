@@ -19,5 +19,5 @@
         console.log("Searching for:", searchTerm);
       }
     }
-  })();
+  });
 })();
