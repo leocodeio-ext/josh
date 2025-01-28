@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--bg-color);
-  padding: 1rem 2rem;
+  padding: 3rem 6rem;
 }
 
 .footer-content {
@@ -58,6 +58,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer {
+    position: relative;
+    padding: 1rem 2rem;
+  }
+
   .footer-menu-button {
     color: var(--primary-color);
     display: block;
@@ -68,7 +73,7 @@
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    bottom: 70px;
+    bottom: 100%;
     left: 0;
     right: 0;
     background-color: var(--bg-color);

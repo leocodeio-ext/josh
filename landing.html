@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JTGeats</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
 
   <!-- Header -->
@@ -41,6 +43,28 @@
         </p>
       </span>
     </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <div class="contact-container">
+        <h2>Do you have a question</h2>
+        <h2>or want to become a seller?</h2>
+        <p>Fill this form and our manager will contact you next 48 hours.</p>
+
+        <form id="contact-form">
+          <div class="contact-container-input">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your e-mail" required />
+          </div>
+          <textarea placeholder="Your message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="contact-image">
+        <img src="assets/artifacts/cute-boy.png" alt="delivery guy" />
+      </div>
+    </section>
   </body>
 
   <!-- Footer -->
@@ -66,4 +90,5 @@
   </footer>
   <script src="scripts/header-nav.js" defer></script>
   <script src="scripts/footer-nav.js" defer></script>
+  <script src="scripts/contact.js" defer></script>
 </html>

@@ -1,6 +1,6 @@
 .header {
   background-color: var(--bg-color);
-  padding: 1rem 2rem;
+  padding: 1rem 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +50,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+
   .menu-button {
     color: var(--primary-color);
     display: block;
