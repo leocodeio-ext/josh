@@ -32,16 +32,30 @@
   <body>
     <!-- Hero -->
     <section class="hero">
-      <span class="hero-title"
-        ><p>Authentic Home</p>
-        <p>food in India</p></span
-      >
-      <span class="hero-subtitle">
-        <p>
-          JTGeats is a courier service in which authentic home cook food is
-          delivered to a customer.
-        </p>
-      </span>
+      <div class="hero-content">
+        <span class="hero-title">
+          <h1>Authentic Home</h1>
+          <h1>food in India</h1>
+        </span>
+        <span class="hero-subtitle">
+          <p>JTGeats is a courier service in which authentic home</p>
+          <p>cook food is delivered to a customer.</p>
+        </span>
+        <div class="hero-search">
+          <input
+            type="text"
+            placeholder="Search food you love"
+            id="search-input"
+          />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="assets/artifacts/cooking-man.png"
+          alt="cooking illustration"
+        />
+      </div>
     </section>
 
     <!-- Contact -->
@@ -91,4 +105,5 @@
   <script src="scripts/header-nav.js" defer></script>
   <script src="scripts/footer-nav.js" defer></script>
   <script src="scripts/contact.js" defer></script>
+  <script src="scripts/hero.js" defer></script>
 </html>
